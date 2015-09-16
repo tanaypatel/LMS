@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Genre"%>
@@ -5,6 +6,7 @@
  String genreId = request.getParameter("genreId");
  Genre genre = adminService.listOneGenre(Integer.parseInt(genreId));
 %>
+<br><br><br>
 <a href="viewGenres.jsp">Back to Genre</a>
 <div>
 <form action="editGenre" method="post">

@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Author"%>
@@ -5,6 +6,7 @@
  String authorId = request.getParameter("authorId");
  Author author = adminService.listOneAuthor(Integer.parseInt(authorId));
 %>
+<br><br><br>
 <a href="viewAuthors.jsp">Back to Authors</a>
 
 <div class="modal-body">

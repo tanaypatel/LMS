@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Publisher"%>
@@ -5,6 +6,7 @@
  String publisherId = request.getParameter("publisherId");
  Publisher publisher = adminService.listOnePublisher(Integer.parseInt(publisherId));
 %>
+<br><br><br>
 <a href="viewPublishers.jsp">Back to Publishers</a>
 <div>
 <form action="editPublisher" method="post">

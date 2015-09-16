@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +7,7 @@
 <body>
 <div>
 
-	
+	<br><br>
 	<div>
 		<h1>Library Management System</h1>
 		

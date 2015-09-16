@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Book"%>
@@ -5,6 +6,7 @@
  String bookId = request.getParameter("bookId");
  Book book = adminService.listOneBook(Integer.parseInt(bookId));
 %>
+<br><br><br>
 <a href="viewBooks.jsp">Back to Books</a>
 <div>
 <form action="editBook" method="post">

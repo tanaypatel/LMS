@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.LibBranch"%>
@@ -5,6 +6,7 @@
  String branchId = request.getParameter("branchId");
  LibBranch libranch = adminService.ListOneBranch(Integer.parseInt(branchId));
 %>
+<br><br><br>
 <a href="viewBrances.jsp">Back to Branches</a>
 <div>
 <form action="editBranch" method="post">

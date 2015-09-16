@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Author"%>
@@ -8,6 +9,8 @@
  List<Genre> genres = adminService.listGenres(0,50);
  List<Publisher> pubs = adminService.listPublishers(0,50);
 %>
+
+<br><br><br>
 <a href="admin.jsp">Back to Admin Home Page</a>
 
 <form action="addBook" method="post">

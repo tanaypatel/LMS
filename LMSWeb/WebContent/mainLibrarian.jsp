@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.domain.LibBranch"%>
 <%@page import="com.gcit.lms.service.LibraryService"%>
 <%@page import="java.util.List"%>
@@ -8,7 +9,7 @@ LibraryService libraryService = new LibraryService();
  LibBranch lib = libraryService.ListOneBranch(Integer.parseInt(branchId)); 
  
 %>
-
+<br><br><br>
 
 <table class="table" id="libBranchesTable">
 	<tr>

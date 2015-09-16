@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.LibraryService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Book"%>
@@ -11,6 +12,8 @@ String branchId = (String) request.getParameter("branchId");
 String bookId = (String) request.getParameter("bookId");
  Book book = libraryService.listOneBook(Integer.parseInt(bookId));
 %>
+
+<br><br><br>
 
 <div>
 	<form action="addCopies" method="post">

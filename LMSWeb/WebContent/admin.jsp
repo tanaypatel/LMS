@@ -1,4 +1,4 @@
-
+<%@include file="include.html"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +6,7 @@
 </head>
 <body>
 
+<br><br><br>
 	<a href="index.jsp">Home</a>
 	<h2>Administrator</h2>
 	${result}

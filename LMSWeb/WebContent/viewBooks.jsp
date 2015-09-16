@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.AdministrativeService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Book"%>
@@ -14,7 +15,7 @@
 
 	}
 %>
-
+<br><br><br>
 ${result }
 
 <a href="admin.jsp">Back to Admin Home Page</a>

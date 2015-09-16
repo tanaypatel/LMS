@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.domain.LibBranch"%>
 <%@page import="com.gcit.lms.service.LibraryService"%>
 <%@page import="java.util.List"%>
@@ -12,6 +13,7 @@
 		branches = libraryService.listBranches(0, 50);
 	}
 %>
+<br><br><br>
 
 <h2>Librarian</h2>
 ${result}

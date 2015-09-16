@@ -14,7 +14,6 @@ public class BookDatabase extends BaseDatabase<Book>{
 
 	public BookDatabase(Connection conn) throws Exception {
 		super(conn);
-		// TODO Auto-generated constructor stub
 	}
 
 	public void create(Book book) throws Exception {
@@ -96,7 +95,6 @@ public class BookDatabase extends BaseDatabase<Book>{
 			return books.get(0); 
 		}
 
-		// TODO Auto-generated method stub
 		return null;
 	}
 

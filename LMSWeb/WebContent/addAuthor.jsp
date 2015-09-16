@@ -1,3 +1,5 @@
+<%@include file="include.html"%>
+<br><br><br>
 <a href="admin.jsp">Back to Admin Home Page</a>
 
 <form action="addAuthor" method="post">

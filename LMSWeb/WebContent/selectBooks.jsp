@@ -1,3 +1,4 @@
+<%@include file="include.html"%>
 <%@page import="com.gcit.lms.service.LibraryService"%>
 <%@page import="java.util.List"%>
 <%@page import="com.gcit.lms.domain.Book"%>
@@ -20,7 +21,7 @@ String noOfCopies = (String) request.getAttribute("noOfCopies");
 %>
 
 ${result }
-
+<br><br><br>
  <table class="table"> 
  	<tr> 
  		<th>Book Title</th> 
