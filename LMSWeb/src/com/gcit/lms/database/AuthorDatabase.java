@@ -1,3 +1,7 @@
+/*
+This file contains the concrete class implementations in DAO design pattern.
+This class implements the BaseDatabase interface.
+*/
 package com.gcit.lms.database;
 
 import java.sql.Connection;
